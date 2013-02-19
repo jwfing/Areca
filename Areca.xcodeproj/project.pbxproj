@@ -31,6 +31,18 @@
 		42B2CD4E16D316DD000150CB /* MWMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2CD4D16D316DD000150CB /* MWMenuCell.m */; };
 		42B2CD5016D32397000150CB /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B2CD4F16D32397000150CB /* user.png */; };
 		42B2CD5216D34C4B000150CB /* rootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B2CD5116D34C4B000150CB /* rootViewController.xib */; };
+		42B2CD5516D356B4000150CB /* CaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2CD5416D356B4000150CB /* CaptureViewController.m */; };
+		42B2CD5716D356CA000150CB /* captureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B2CD5616D356CA000150CB /* captureView.xib */; };
+		42B2CD5916D3621E000150CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B2CD5816D3621E000150CB /* AVFoundation.framework */; };
+		42B2CD6116D36264000150CB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B2CD5A16D36264000150CB /* Accelerate.framework */; };
+		42B2CD6216D36264000150CB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B2CD5B16D36264000150CB /* AudioToolbox.framework */; };
+		42B2CD6316D36264000150CB /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B2CD5C16D36264000150CB /* CoreAudio.framework */; };
+		42B2CD6416D36264000150CB /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B2CD5D16D36264000150CB /* CoreFoundation.framework */; };
+		42B2CD6516D36264000150CB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B2CD5E16D36264000150CB /* CoreImage.framework */; };
+		42B2CD6616D36264000150CB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B2CD5F16D36264000150CB /* CoreMedia.framework */; };
+		42B2CD6716D36264000150CB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B2CD6016D36264000150CB /* CoreVideo.framework */; };
+		42B2CD6B16D37DD6000150CB /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2CD6A16D37DD6000150CB /* Utils.m */; };
+		42B2CD6D16D3A249000150CB /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B2CD6C16D3A249000150CB /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +91,20 @@
 		42B2CD4D16D316DD000150CB /* MWMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWMenuCell.m; sourceTree = "<group>"; };
 		42B2CD4F16D32397000150CB /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		42B2CD5116D34C4B000150CB /* rootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = rootViewController.xib; sourceTree = "<group>"; };
+		42B2CD5316D356B4000150CB /* CaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureViewController.h; sourceTree = "<group>"; };
+		42B2CD5416D356B4000150CB /* CaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureViewController.m; sourceTree = "<group>"; };
+		42B2CD5616D356CA000150CB /* captureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = captureView.xib; sourceTree = "<group>"; };
+		42B2CD5816D3621E000150CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		42B2CD5A16D36264000150CB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		42B2CD5B16D36264000150CB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		42B2CD5C16D36264000150CB /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		42B2CD5D16D36264000150CB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		42B2CD5E16D36264000150CB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		42B2CD5F16D36264000150CB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		42B2CD6016D36264000150CB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		42B2CD6916D37DD6000150CB /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		42B2CD6A16D37DD6000150CB /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		42B2CD6C16D3A249000150CB /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +112,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B2CD6D16D3A249000150CB /* MediaPlayer.framework in Frameworks */,
+				42B2CD6116D36264000150CB /* Accelerate.framework in Frameworks */,
+				42B2CD6216D36264000150CB /* AudioToolbox.framework in Frameworks */,
+				42B2CD6316D36264000150CB /* CoreAudio.framework in Frameworks */,
+				42B2CD6416D36264000150CB /* CoreFoundation.framework in Frameworks */,
+				42B2CD6516D36264000150CB /* CoreImage.framework in Frameworks */,
+				42B2CD6616D36264000150CB /* CoreMedia.framework in Frameworks */,
+				42B2CD6716D36264000150CB /* CoreVideo.framework in Frameworks */,
+				42B2CC7316D12AFE000150CB /* CoreGraphics.framework in Frameworks */,
+				42B2CD5916D3621E000150CB /* AVFoundation.framework in Frameworks */,
 				42B2CC6F16D12AFE000150CB /* UIKit.framework in Frameworks */,
 				42B2CC7116D12AFE000150CB /* Foundation.framework in Frameworks */,
-				42B2CC7316D12AFE000150CB /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +143,15 @@
 		42B2CC6216D12AFE000150CB = {
 			isa = PBXGroup;
 			children = (
+				42B2CD6C16D3A249000150CB /* MediaPlayer.framework */,
+				42B2CD5A16D36264000150CB /* Accelerate.framework */,
+				42B2CD5B16D36264000150CB /* AudioToolbox.framework */,
+				42B2CD5C16D36264000150CB /* CoreAudio.framework */,
+				42B2CD5D16D36264000150CB /* CoreFoundation.framework */,
+				42B2CD5E16D36264000150CB /* CoreImage.framework */,
+				42B2CD5F16D36264000150CB /* CoreMedia.framework */,
+				42B2CD6016D36264000150CB /* CoreVideo.framework */,
+				42B2CD5816D3621E000150CB /* AVFoundation.framework */,
 				42B2CCB216D12C03000150CB /* third-parties */,
 				42B2CC7416D12AFE000150CB /* Areca */,
 				42B2CC9816D12AFE000150CB /* ArecaTests */,
@@ -208,6 +252,8 @@
 				42B2CD4A16D31093000150CB /* MWMenuViewController.m */,
 				42B2CD4C16D316DD000150CB /* MWMenuCell.h */,
 				42B2CD4D16D316DD000150CB /* MWMenuCell.m */,
+				42B2CD5316D356B4000150CB /* CaptureViewController.h */,
+				42B2CD5416D356B4000150CB /* CaptureViewController.m */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -217,6 +263,7 @@
 			children = (
 				42B2CC8916D12AFE000150CB /* ViewController.xib */,
 				42B2CD5116D34C4B000150CB /* rootViewController.xib */,
+				42B2CD5616D356CA000150CB /* captureView.xib */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -238,6 +285,8 @@
 		42B2CCBC16D12DCE000150CB /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				42B2CD6916D37DD6000150CB /* Utils.h */,
+				42B2CD6A16D37DD6000150CB /* Utils.m */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -320,6 +369,7 @@
 				42B2CC8B16D12AFE000150CB /* ViewController.xib in Resources */,
 				42B2CD5016D32397000150CB /* user.png in Resources */,
 				42B2CD5216D34C4B000150CB /* rootViewController.xib in Resources */,
+				42B2CD5716D356CA000150CB /* captureView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +413,8 @@
 				42B2CD4816D31060000150CB /* MWDropdownViewController.m in Sources */,
 				42B2CD4B16D31093000150CB /* MWMenuViewController.m in Sources */,
 				42B2CD4E16D316DD000150CB /* MWMenuCell.m in Sources */,
+				42B2CD5516D356B4000150CB /* CaptureViewController.m in Sources */,
+				42B2CD6B16D37DD6000150CB /* Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

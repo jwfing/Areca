@@ -7,6 +7,7 @@
 //
 
 #import "RootViewController.h"
+#import "CaptureViewController.h"
 
 @interface RootViewController ()
 
@@ -22,6 +23,9 @@
         self.title = title;
         _dropdownBlock = [block copy];
         self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(showDropdownMenu)];
+        if ([title compare:@"Home"] == NSOrderedSame) {
+            self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCamera target:self action:@selector(captureVideo)];
+        }
     }
     return self;
 }
@@ -41,6 +45,12 @@
 - (void)showDropdownMenu
 {
     _dropdownBlock();
+}
+
+- (void)captureVideo
+{
+    CaptureViewController *captureViewController = [[CaptureViewController alloc] initWithNibName:@"captureView" bundle:nil];
+    [self.navigationController pushViewController:captureViewController animated:YES];
 }
 
 @end
